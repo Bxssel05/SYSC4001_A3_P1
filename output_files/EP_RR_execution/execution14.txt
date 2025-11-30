@@ -1,0 +1,41 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  3 |       NEW |     READY |
+|                 0 |  3 |     READY |   RUNNING |
+|                50 |  3 |   RUNNING |   WAITING |
+|                60 |  2 |       NEW |     READY |
+|                60 |  2 |     READY |   RUNNING |
+|                70 |  3 |   WAITING |     READY |
+|                90 |  2 |   RUNNING |   WAITING |
+|                90 |  3 |     READY |   RUNNING |
+|               105 |  2 |   WAITING |     READY |
+|               105 |  3 |   RUNNING |     READY |
+|               105 |  2 |     READY |   RUNNING |
+|               120 |  1 |       NEW |     READY |
+|               120 |  2 |   RUNNING |     READY |
+|               120 |  1 |     READY |   RUNNING |
+|               220 |  1 |   RUNNING |TERMINATED |
+|               220 |  2 |     READY |   RUNNING |
+|               250 |  2 |   RUNNING |   WAITING |
+|               250 |  3 |     READY |   RUNNING |
+|               265 |  2 |   WAITING |     READY |
+|               265 |  3 |   RUNNING |     READY |
+|               265 |  2 |     READY |   RUNNING |
+|               295 |  2 |   RUNNING |   WAITING |
+|               295 |  3 |     READY |   RUNNING |
+|               310 |  2 |   WAITING |     READY |
+|               310 |  3 |   RUNNING |     READY |
+|               310 |  2 |     READY |   RUNNING |
+|               340 |  2 |   RUNNING |   WAITING |
+|               340 |  3 |     READY |   RUNNING |
+|               355 |  2 |   WAITING |     READY |
+|               355 |  3 |   RUNNING |     READY |
+|               355 |  2 |     READY |   RUNNING |
+|               370 |  2 |   RUNNING |TERMINATED |
+|               370 |  3 |     READY |   RUNNING |
+|               420 |  3 |   RUNNING |   WAITING |
+|               440 |  3 |   WAITING |     READY |
+|               440 |  3 |     READY |   RUNNING |
+|               480 |  3 |   RUNNING |TERMINATED |
++------------------------------------------------+

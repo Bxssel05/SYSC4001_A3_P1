@@ -1,0 +1,49 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 0 |  1 |       NEW |     READY |
+|                 0 |  1 |     READY |   RUNNING |
+|                30 |  2 |       NEW |     READY |
+|                60 |  3 |       NEW |     READY |
+|                90 |  4 |       NEW |     READY |
+|               120 |  5 |       NEW |     READY |
+|               150 |  6 |       NEW |     READY |
+|               200 |  1 |   RUNNING |TERMINATED |
+|               200 |  2 |     READY |   RUNNING |
+|               225 |  2 |   RUNNING |   WAITING |
+|               225 |  3 |     READY |   RUNNING |
+|               230 |  2 |   WAITING |     READY |
+|               375 |  3 |   RUNNING |TERMINATED |
+|               375 |  2 |     READY |   RUNNING |
+|               400 |  2 |   RUNNING |   WAITING |
+|               400 |  4 |     READY |   RUNNING |
+|               405 |  2 |   WAITING |     READY |
+|               420 |  4 |   RUNNING |   WAITING |
+|               420 |  2 |     READY |   RUNNING |
+|               430 |  4 |   WAITING |     READY |
+|               445 |  2 |   RUNNING |   WAITING |
+|               445 |  4 |     READY |   RUNNING |
+|               450 |  2 |   WAITING |     READY |
+|               465 |  4 |   RUNNING |   WAITING |
+|               465 |  2 |     READY |   RUNNING |
+|               475 |  4 |   WAITING |     READY |
+|               490 |  2 |   RUNNING |TERMINATED |
+|               490 |  4 |     READY |   RUNNING |
+|               510 |  4 |   RUNNING |   WAITING |
+|               510 |  5 |     READY |   RUNNING |
+|               520 |  4 |   WAITING |     READY |
+|               570 |  5 |   RUNNING |TERMINATED |
+|               570 |  4 |     READY |   RUNNING |
+|               590 |  4 |   RUNNING |TERMINATED |
+|               590 |  6 |     READY |   RUNNING |
+|               600 |  6 |   RUNNING |   WAITING |
+|               605 |  6 |   WAITING |     READY |
+|               605 |  6 |     READY |   RUNNING |
+|               615 |  6 |   RUNNING |   WAITING |
+|               620 |  6 |   WAITING |     READY |
+|               620 |  6 |     READY |   RUNNING |
+|               630 |  6 |   RUNNING |   WAITING |
+|               635 |  6 |   WAITING |     READY |
+|               635 |  6 |     READY |   RUNNING |
+|               645 |  6 |   RUNNING |TERMINATED |
++------------------------------------------------+
